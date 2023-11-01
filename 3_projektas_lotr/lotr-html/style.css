@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kenia&family=MedievalSharp&family=Montserrat:ital,wght@1,500&family=Playpen+Sans:wght@200&display=swap');
+
+body {
+    overflow: hidden;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.background::before {
+    content: '';
+    background-image: url(../lotr-jpg/mainback.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+
+}
+
+/* pavadinimas */
+p {
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    top: 2vw;
+    padding: 0;
+    margin: 0;
+}
+
+/* pavadinimas */
+
+/* sarasas */
+ol {
+    position: relative;
+    left: 6vw;
+    top: 8vw;
+    list-style-position: inside;
+    list-style-image: url(../lotr-jpg/ziedas.png.png);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    width: 10vw;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+li {
+    padding: 10px;
+    font-size: 30px;
+}
+
+/* sarasas */
+
+/* lenetele */
+table {
+    position: relative;
+    left: 30vw;
+    bottom: 20vw;
+    height: 30vw;
+    width: 50vw;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 20px solid;
+    border-collapse: collapse;
+}
+
+/* lenetele */
