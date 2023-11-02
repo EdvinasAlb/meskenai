@@ -5,21 +5,6 @@ body {
     font-family: 'MedievalSharp', cursive;
 }
 
-/* backimg */
-.background::before {
-    content: '';
-    background-image: url(../lotr-jpg/mainback.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.3;
-}
-
-/* backimg */
 
 /* pavadinimas */
 p {
@@ -34,139 +19,126 @@ p {
 
 /* pavadinimas */
 
-/* sarasas */
-ol {
-    position: fixed;
-    left: 10vw;
-    top: 13vw;
-    list-style-position: inside;
-    list-style-image: url(../lotr-jpg/ziedas.png.png);
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    width: 10vw;
-    border: 2px solid white;
-    border-radius: 7px;
-}
-
-li {
-    padding: 10px;
-    font-size: 30px;
-
-}
-
-/* 3 saraso narys */
-li:nth-child(3) {
-    font-size: 27.5px;
-}
-
-/* 3 saraso narys */
-/* sarasas */
-
-/* lenetele */
-table {
-    position: fixed;
-    left: 30vw;
-    top: 13vw;
-    bottom: 20vw;
-    height: 30vw;
-    width: 40vw;
-
-}
-
-table,
-tr,
-td {
-    border-collapse: collapse;
-}
-
-/* lenetele */
-
-/* lentelesimg */
-.aragornas {
+/* backimg */
+.aragornas::before {
     content: '';
     background-image: url(../lotr-jpg/aragorn.jpg.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
-.balrog {
+
+.balrog::before {
     content: '';
     background-image: url(../lotr-jpg/balrog.jpg.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
-.frodnsam {
+.frodnsam::before {
     content: '';
     background-image: url(../lotr-jpg/frodnsam.jpg.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
-.gandolf {
+
+.gandalf::before {
     content: '';
     background-image: url(../lotr-jpg/gandolf.jpg.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
-.gimli {
+.gimli::before {
     content: '';
     background-image: url(../lotr-jpg/gimli.jpg.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
-.legolas {
+
+.legolas::before {
     content: '';
     background-image: url(../lotr-jpg/legolas.jpg.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
-.nasgul {
+.nasgul::before {
     content: '';
     background-image: url(../lotr-jpg/nasgul.jpg.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
-.sauron {
+
+.sauron::before {
     content: '';
     background-image: url(../lotr-jpg/sauron.jpg.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
-.smygol {
+.smygol::before {
     content: '';
     background-image: url(../lotr-jpg/smygol.jpg.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
-a {
-    text-decoration: none;
-    color: #556B2F;
-}
-
-/* lentelesimg */
+/* backimg */

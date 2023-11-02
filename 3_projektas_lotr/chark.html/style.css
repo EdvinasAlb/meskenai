@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kenia&family=MedievalSharp&family=Montserrat:ital,wght@1,500&family=Playpen+Sans:wght@200&display=swap');
+
+body {
+    overflow: hidden;
+    font-family: 'MedievalSharp', cursive;
+}
+
+/* backimg */
+.background::before {
+    content: '';
+    background-image: url(../lotr-jpg/mainback.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+/* backimg */
+/* pavadinimas */
+p {
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    top: 2vw;
+    padding: 0;
+    margin: 0;
+    color: #556B2F;
+}
+
+/* pavadinimas */
