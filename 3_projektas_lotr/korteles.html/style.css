@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kenia&family=MedievalSharp&family=Montserrat:ital,wght@1,500&family=Playpen+Sans:wght@200&display=swap');
 
+
 body {
     overflow: hidden;
     font-family: 'MedievalSharp', cursive;
@@ -142,3 +143,27 @@ p {
 }
 
 /* backimg */
+
+.img {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    left: 20vw;
+    top: 8vw;
+    background-image: url(../lotr2-jpg/aragorn2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.aprasymas {
+    position: relative;
+    border: 1px solid;
+    width: 30vw;
+    height: 30vw;
+    left: 50vw;
+    bottom: 22.1vw;
+    border-radius: 10px;
+}
