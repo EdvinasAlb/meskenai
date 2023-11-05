@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kenia&family=MedievalSharp&family=Montserrat:ital,wght@1,500&family=Playpen+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kenia&family=MedievalSharp&family=Montserrat:ital,wght@1,500&family=Playpen+Sans:wght@200&family=Roboto:wght@300;500&display=swap');
+
 
 
 body {
@@ -8,7 +10,7 @@ body {
 
 
 /* pavadinimas */
-p {
+h1 {
     text-align: center;
     font-size: 80px;
     position: relative;
@@ -23,7 +25,6 @@ p {
 /* backimg */
 .aragornas::before {
     content: '';
-    background-image: url(../lotr-jpg/aragorn.jpg.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -31,13 +32,13 @@ p {
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.3;
+    opacity: 0.6;
+    background-color: bisque;
 }
 
 
 .balrog::before {
     content: '';
-    background-image: url(../lotr-jpg/balrog.jpg.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -46,11 +47,12 @@ p {
     bottom: 0;
     right: 0;
     opacity: 0.3;
+    background-color: bisque;
 }
 
 .frodnsam::before {
     content: '';
-    background-image: url(../lotr-jpg/frodnsam.jpg.jpg);
+    background-color: bisque;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -64,7 +66,7 @@ p {
 
 .gandalf::before {
     content: '';
-    background-image: url(../lotr-jpg/gandolf.jpg.jpg);
+    background-color: bisque;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -77,7 +79,7 @@ p {
 
 .gimli::before {
     content: '';
-    background-image: url(../lotr-jpg/gimli.jpg.jpg);
+    background-color: bisque;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -91,7 +93,7 @@ p {
 
 .legolas::before {
     content: '';
-    background-image: url(../lotr-jpg/legolas.jpg.jpg);
+    background-color: bisque;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -104,7 +106,7 @@ p {
 
 .nasgul::before {
     content: '';
-    background-image: url(../lotr-jpg/nasgul.jpg.jpg);
+    background-color: bisque;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -118,7 +120,7 @@ p {
 
 .sauron::before {
     content: '';
-    background-image: url(../lotr-jpg/sauron.jpg.jpg);
+    background-color: bisque;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -131,7 +133,7 @@ p {
 
 .smygol::before {
     content: '';
-    background-image: url(../lotr-jpg/smygol.jpg.jpg);
+    background-color: bisque;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -144,7 +146,7 @@ p {
 
 /* backimg */
 
-.img {
+.aragornas2 {
     position: relative;
     width: 30vw;
     height: 30vw;
@@ -154,16 +156,120 @@ p {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    padding: 0;
-    margin: 0;
+}
+
+.balrog2 {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    left: 20vw;
+    top: 8vw;
+    background-image: url(../lotr2-jpg/baltrog2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.frodnsam2 {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    left: 20vw;
+    top: 8vw;
+    background-image: url(../lotr2-jpg/frodnsam.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.gandolf2 {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    left: 20vw;
+    top: 8vw;
+    background-image: url(../lotr2-jpg/262860.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.gimli2 {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    left: 20vw;
+    top: 8vw;
+    background-image: url(../lotr2-jpg/gimli2jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.legolas2 {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    left: 20vw;
+    top: 8vw;
+    background-image: url(../lotr2-jpg/legolas2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.nasgul2 {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    left: 20vw;
+    top: 8vw;
+    background-image: url(../lotr2-jpg/nasgul2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.sauron2 {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    left: 20vw;
+    top: 8vw;
+    background-image: url(../lotr2-jpg/sauron2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.smygol2 {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    left: 20vw;
+    top: 8vw;
+    background-image: url(../lotr2-jpg/smygol2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
 
 .aprasymas {
     position: relative;
-    border: 1px solid;
     width: 30vw;
     height: 30vw;
     left: 50vw;
     bottom: 22.1vw;
     border-radius: 10px;
+}
+
+ul {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+span {
+    font-size: 20px;
 }

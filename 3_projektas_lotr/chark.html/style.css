@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kenia&family=MedievalSharp&family=Montserrat:ital,wght@1,500&family=Playpen+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kenia&family=MedievalSharp&family=Montserrat:ital,wght@1,500&family=Playpen+Sans:wght@200&family=Roboto:wght@300;500&display=swap');
 
 body {
     overflow: hidden;
@@ -6,9 +7,113 @@ body {
 }
 
 /* backimg */
-.background::before {
+.aragorn::before {
     content: '';
-    background-image: url(../lotr-jpg/mainback.jpg.jpg);
+    background-image: url(../lotr2-jpg/aragorn2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.balrog::before {
+    content: '';
+    background-image: url(../lotr2-jpg/baltrog2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.frodonsam::before {
+    content: '';
+    background-image: url(../lotr2-jpg/frodnsam.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.gandolf::before {
+    content: '';
+    background-image: url(../lotr2-jpg/262860.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.gimli::before {
+    content: '';
+    background-image: url(../lotr2-jpg/gimli2jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.legolas::before {
+    content: '';
+    background-image: url(../lotr2-jpg/legolas2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.nasgul::before {
+    content: '';
+    background-image: url(../lotr2-jpg/nasgul2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.sauron::before {
+    content: '';
+    background-image: url(../lotr2-jpg/sauron2.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.smygol::before {
+    content: '';
+    background-image: url(../lotr2-jpg/smygol2.jpg.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -21,17 +126,18 @@ body {
 
 /* backimg */
 /* pavadinimas */
-p {
+h1 {
     text-align: center;
     font-size: 80px;
     position: relative;
-    top: 2vw;
+    top: 8vw;
     padding: 0;
     margin: 0;
     color: #556B2F;
 }
 
 /* pavadinimas */
+/* mygtukai */
 .click {
     position: relative;
     border: 3px solid;
@@ -61,3 +167,36 @@ a {
     text-decoration: none;
     color: #556B2F;
 }
+
+/* mygtukai */
+
+/* tekstas */
+.tekstas {
+    width: 70vw;
+    height: 20vw;
+    font-size: 30px;
+    position: relative;
+    left: 10vw;
+    top: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-align: justify;
+
+}
+
+.tekstassauronas {
+    width: 70vw;
+    height: 20vw;
+    font-size: 18px;
+    position: relative;
+    left: 10vw;
+    top: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-align: justify;
+
+}
+
+/* tekstas */
