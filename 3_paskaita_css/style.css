@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+
+span {
+    color: crimson;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-decoration-color: violet;
+    text-decoration-thickness: 3px;
+    text-shadow: 3px 3px 3px black;
+}
+
+div {
+    text-align: right;
+    border: 3px dashed black;
+    padding: 15px 30px 46px 60px;
+    padding: 10px 30px;
+    /*10 virsuj apacioj, 30 sonai, veikia paskutinis padingas*/
+    margin: 7px;
+    width: 50%;
+    box-sizing: border-box;
+}
