@@ -64,128 +64,98 @@ li {
 
 /* 3 saraso narys */
 li:nth-child(3) {
-    font-size: 27.5px;
+    font-size: 26px;
 }
 
 /* 3 saraso narys */
-/* sarasas */
-
-/* lenetele */
-table {
-    position: fixed;
-    left: 30vw;
-    top: 13vw;
-    bottom: 20vw;
-    height: 30vw;
-    width: 40vw;
-
-}
-
-table,
-tr,
-td {
-    border-collapse: collapse;
-}
-
-/* lenetele */
-
-/* lentelesimg */
-.aragornas {
-    content: '';
-    background-image: url(../lotr-jpg/aragorn.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
-}
-
-.balrog {
-    content: '';
-    background-image: url(../lotr-jpg/balrog.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
-}
-
-.frodnsam {
-    content: '';
-    background-image: url(../lotr-jpg/frodnsam.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
-}
-
-.gandolf {
-    content: '';
-    background-image: url(../lotr-jpg/gandolf.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
-}
-
-.gimli {
-    content: '';
-    background-image: url(../lotr-jpg/gimli.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
-}
-
-.legolas {
-    content: '';
-    background-image: url(../lotr-jpg/legolas.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
-}
-
-.nasgul {
-    content: '';
-    background-image: url(../lotr-jpg/nasgul.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
-}
-
-.sauron {
-    content: '';
-    background-image: url(../lotr-jpg/sauron.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
-}
-
-.smygol {
-    content: '';
-    background-image: url(../lotr-jpg/smygol.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    border-radius: 5px;
-}
-
 a {
     text-decoration: none;
     color: #556B2F;
 }
+
+/* sarasas */
+
+div.aragornas,
+div.balrog,
+div.frodnsam,
+div.gandolf,
+div.gimli,
+div.legolas,
+div.nasgul,
+div.sauron,
+div.smygol {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    left: 600px;
+    position: relative;
+    top: 150px;
+}
+
+/* lentelesimg */
+.aragornas,
+.balrog,
+.frodnsam,
+.gandolf,
+.gimli,
+.legolas,
+.nasgul,
+.sauron,
+.smygol {
+    content: '';
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.aragornas {
+    background-image: url(../lotr-jpg/aragorn.jpg.jpg);
+}
+
+.balrog {
+    background-image: url(../lotr-jpg/balrog.jpg.jpg);
+}
+
+.frodnsam {
+    background-image: url(../lotr-jpg/frodnsam.jpg.jpg);
+}
+
+.gandolf {
+    background-image: url(../lotr-jpg/gandolf.jpg.jpg);
+}
+
+.gimli {
+    background-image: url(../lotr-jpg/gimli.jpg.jpg);
+}
+
+.legolas {
+    background-image: url(../lotr-jpg/legolas.jpg.jpg);
+}
+
+.nasgul {
+
+    background-image: url(../lotr-jpg/nasgul.jpg.jpg);
+}
+
+.sauron {
+    background-image: url(../lotr-jpg/sauron.jpg.jpg);
+}
+
+.smygol {
+    background-image: url(../lotr-jpg/smygol.jpg.jpg);
+}
+
+/* lentelesimg */
 
 .story {
     position: relative;
     width: 20vw;
     height: 32vw;
     left: 75vw;
-    top: 6vw;
+    bottom: 500px;
     font-size: 25px;
     color: #556B2F;
     font-family: 'Kaushan Script', cursive;
     text-align: justify;
 }
-
-/* lentelesimg */

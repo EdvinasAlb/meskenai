@@ -11,9 +11,16 @@ body {
 }
 
 /* backimg */
-.aragorn::before {
+.aragorn::before,
+.balrog::before,
+.frodonsam::before,
+.gandolf::before,
+.gimli::before,
+.legolas::before,
+.nasgul::before,
+.sauron::before,
+.smygol::before {
     content: '';
-    background-image: url(../lotr2-jpg/aragorn2.jpg.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -22,158 +29,47 @@ body {
     bottom: 0;
     right: 0;
     opacity: 0.3;
+}
+
+.aragorn::before {
+    background-image: url(../lotr2-jpg/aragorn2.jpg.jpg);
 }
 
 .balrog::before {
-    content: '';
     background-image: url(../lotr2-jpg/baltrog2.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.3;
 }
 
 .frodonsam::before {
-    content: '';
     background-image: url(../lotr2-jpg/frodnsam.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.3;
 }
 
 .gandolf::before {
-    content: '';
     background-image: url(../lotr2-jpg/262860.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.3;
 }
 
 .gimli::before {
-    content: '';
     background-image: url(../lotr2-jpg/gimli2jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.3;
 }
 
 .legolas::before {
-    content: '';
     background-image: url(../lotr2-jpg/legolas2.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.3;
+
 }
 
 .nasgul::before {
-    content: '';
     background-image: url(../lotr2-jpg/nasgul2.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.3;
 }
 
 .sauron::before {
-    content: '';
     background-image: url(../lotr2-jpg/sauron2.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.3;
+
 }
 
 .smygol::before {
-    content: '';
     background-image: url(../lotr2-jpg/smygol2.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.3;
 }
 
 /* backimg */
-/* pavadinimas */
-h1 {
-    text-align: center;
-    font-size: 80px;
-    position: relative;
-    top: 8vw;
-    padding: 0;
-    margin: 0;
-    color: #556B2F;
-}
-
-/* pavadinimas */
-/* mygtukai */
-.click {
-    position: relative;
-    border: 3px solid;
-    border-color: white;
-    border-radius: 5px;
-    width: 200px;
-    height: 70px;
-    text-align: center;
-    font-size: 70px;
-    left: 70vw;
-    top: 4vw;
-}
-
-.atgal {
-    position: relative;
-    border: 3px solid;
-    border-color: white;
-    border-radius: 5px;
-    width: 200px;
-    height: 70px;
-    text-align: center;
-    font-size: 70px;
-    left: 17vw;
-}
-
-a {
-    text-decoration: none;
-    color: #556B2F;
-}
-
-/* mygtukai */
-
 /* tekstas */
 .tekstas {
     width: 70vw;
@@ -181,7 +77,7 @@ a {
     font-size: 30px;
     position: relative;
     left: 10vw;
-    top: 5vw;
+    top: 200px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
     line-height: 40px;
@@ -204,3 +100,45 @@ a {
 }
 
 /* tekstas */
+/* pavadinimas */
+h1 {
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    top: 80px;
+    padding: 0;
+    margin: 0;
+    color: #556B2F;
+}
+
+/* pavadinimas */
+/* mygtukai */
+.click,
+.atgal {
+    display: inline-block;
+    position: relative;
+    border: 3px solid white;
+    border-radius: 3%;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.click {
+    float: right;
+    right: 300px;
+}
+
+.atgal {
+    float: left;
+    left: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #556B2F;
+}
+
+/* mygtukai */
