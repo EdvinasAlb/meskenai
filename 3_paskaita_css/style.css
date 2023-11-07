@@ -28,3 +28,7 @@ div {
     width: 50%;
     box-sizing: border-box;
 }
+
+i {
+    color: blue;
+}

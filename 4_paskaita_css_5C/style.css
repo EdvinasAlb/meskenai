@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 2px solid black;
+    margin: 10px;
+    /*tarpai*/
+    border-radius: 50%;
+    text-align: center;
+    /*teksto centravimui */
+    font-size: 14px;
+    line-height: 100px;
+    /*teksto centravimui */
+    box-sizing: border-box;
+    font-family: monospace;
+    text-transform: uppercase;
+    display: inline-block;
+    /* rikiuojasi i viena linija, blokai islaiko plocius ir aukscius, draugiskesnis(responsive)*/
+}
+
+
+div:hover {
+    border-color: white;
+}
+
+/*pseudo klase hover nurodo ka darys kai pele virs elemento */
+
+.white1 {
+    color: white;
+    /*antra klase */
+}
+
+.black1 {
+    color: black;
+    /*antra klase */
+}
+
+.circle1 {
+    background-color: #FFE2D199;
+    border-color: #FFE2D1;
+    /* tikslesnis divas, hover */
+}
+
+.circle2 {
+    background-color: #E1F0C499;
+    border-color: #E1F0C4;
+    /* tikslesnis divas, hover */
+}
+
+.circle3 {
+    background-color: #DB7F6799;
+    border-color: #DB7F67;
+    /* tikslesnis divas, hover */
+}
+
+.circle4 {
+    background-color: #55917F99;
+    border-color: #55917F;
+    /* tikslesnis divas, hover */
+}
+
+div.circle5 {
+    background-color: #5E4C5A99;
+    border-color: #5E4C5A;
+    /* hover maziau tiksliau */
+}
