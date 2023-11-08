@@ -12,7 +12,6 @@ body {
     padding: 0;
 }
 
-
 /* pavadinimas */
 h1 {
     text-align: center;
@@ -40,8 +39,6 @@ h1 {
     margin: 0;
     padding: 0;
 }
-
-
 /* backimg */
 /* koreliuimg */
 .aragornas2,
@@ -62,7 +59,30 @@ h1 {
     background-position: center;
     border-radius: 3%;
 }
+/* koreliuimg */
+/* kerteliuaprasymas */
+.aprasymas {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    left: 50vw;
+    bottom: 22.1vw;
+    border-radius: 10px;
+}
 
+ul {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+span {
+    font-size: 20px;
+}/* kerteliuaprasymas */
+
+
+/* koreliuimg */
 .aragornas2 {
     background-image: url(../lotr2-jpg/aragorn2.jpg.jpg);
 }
@@ -100,25 +120,3 @@ h1 {
 }
 
 /* koreliuimg */
-/* kerteliuaprasymas */
-.aprasymas {
-    position: relative;
-    width: 30vw;
-    height: 30vw;
-    left: 50vw;
-    bottom: 22.1vw;
-    border-radius: 10px;
-}
-
-ul {
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 3px;
-    line-height: 30px;
-}
-
-span {
-    font-size: 20px;
-}
-
-/* kerteliuaprasymas */
