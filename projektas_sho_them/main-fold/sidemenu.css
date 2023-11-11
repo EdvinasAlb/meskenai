@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* sidemenu */
+/* bergerisfunkcija */
+.burger {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+    position: absolute;
+    top: 0px;
+    padding: 0;
+    right: 0;
+    left: 0px;
+    bottom: 0;
+}
+
+.burger::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    padding: 0;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+    top: -6px
+}
+
+.burger::after {
+    content: '';
+    width: 20px;
+    padding: 0;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+    top: 6px;
+    position: absolute;
+}
+
+label {
+    top: 50px;
+    bottom: 0;
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    right: 105px;
+    z-index: 1;
+}
+
+input:checked+.sidemenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+/* bergerisfunkcija */
+/*menu display*/
+.sidemenu {
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    height: 100vh;
+    top: 0px;
+    left: 0;
+    width: 300px;
+    transform: translateX(-300px);
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.imgside {
+    left: 20px;
+    top: 30px;
+    position: absolute;
+    display: flex;
+    color: white;
+}
+
+.imgside h1 {
+    font-size: 20px;
+}
+
+.imgside p {
+    font-size: 10px;
+    text-align: right;
+}
+
+.sidemenu ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 20px;
+    width: 250px;
+    height: 120px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+
+}
+
+.sidemenu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+input[type="searchside"],
+button[type="submitside"] {
+    position: absolute;
+    height: 20px;
+    top: 260px;
+    left: 40px;
+    background-color: black;
+}
+
+button[type="submitside"] {
+    left: 20px;
+    background-color: white;
+}
+
+ol {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+
+ol a {
+    margin: 10px;
+    color: white;
+    text-decoration: 0;
+}
+
+/*menu display*/
+
+/* sidemenu */

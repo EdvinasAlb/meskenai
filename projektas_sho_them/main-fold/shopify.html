@@ -2,30 +2,54 @@
 
 <head>
     <title>Shopify</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="topmenu.css">
+    <link rel="stylesheet" href="sidemenu.css">
+    <link rel="stylesheet" href="mainbody.css">
 </head>
 
 <body>
-    <div class="top-menu">
-        <div class="image">
-            <h1>Locak Books</h1>
-            <P>Since2005</P>
-        </div>
-        <input type="search" placeholder="Search..." />
-        <button type="submit">Go</button>
-        <div class="nav">
-
-            <a href="1">Blog</a>
-            <a href="2">Locations</a>
+    <header>
+        <label for="toggle">
+            <div class="burger"></div>
+        </label>
+        <input type="checkbox" id="toggle">
+        <div class="sidemenu">
+            <div class="imgside">
+                <h2>Local Books<p>Since2005</p>
+            </div>
+            </h2>
             <ul>
-                <li><a href=""></a>f</li>
-
-                <li><a href=""></a>i</li>
+                <li><a href="">Books</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Location</a></li>
             </ul>
-            <div class="burger">bur</div>
+            <input type="searchside" placeholder="Search..." />
+            <button type="submitside">Go</button>
+            <ol>
+                <li><a href="side1">f</a></li>
+                <li><a href="side2">i</a></li>
+            </ol>
+        </div>
+        <div class="top-menu">
+            <div class="image">
+                <h1>Locak Books</h1>
+                <P>Since2005</P>
+            </div>
+            <input type="search" placeholder="Search..." />
+            <button type="submit">Go</button>
+            <div class="nav">
+                <a href="3">Books</a>
+                <a href="1">Blog</a>
+                <a href="2">Locations</a>
+                <ul>
+                    <li><a href=""></a>f</li>
+                    <li><a href=""></a>i</li>
+                </ul>
+            </div>
             <a href="#">c</a>
         </div>
-    </div>
+        </div>
+    </header>
 </body>
 
 </html>
