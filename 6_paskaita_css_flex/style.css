@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: black;
+    background-color: #fff;
+}
+
+
+.flex-container {
+    display: flex;
+    /* itemu flex */
+    flex-wrap: wrap;
+    /* jei netelpa i eilute numeta i kita eilute ir palaiko vaiko with */
+    justify-content: space-around;
+    gap: 10px;
+    /* tarp flex itemu padaro tarpa */
+    height: 700px;
+    width: calc(100%-20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.flex-item {
+    display: flex;
+    /* itemu turinio flex */
+    justify-content: center;
+    /* itemu turinio flex centravimas */
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 200px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 90%;
+    }
+}
+
+/*uzduoti procentas kad butu tilptu tik du stulpeliai*/
+/*naudoti kai itemai neisidesto tinkamai, uzduoti procentas kad butu tilptu tik du stulpeliai*/

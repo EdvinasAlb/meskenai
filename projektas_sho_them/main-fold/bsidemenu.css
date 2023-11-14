@@ -5,11 +5,9 @@
     list-style: none;
 }
 
-/* sidemenu */
-/* bergerisfunkcija */
 .burger {
-    width: 20px;
-    height: 3px;
+    width: 30px;
+    height: 4px;
     background-color: black;
     border-radius: 3px;
     position: absolute;
@@ -23,42 +21,34 @@
 .burger::before {
     content: '';
     position: absolute;
-    width: 20px;
+    width: 30px;
     padding: 0;
-    height: 3px;
+    height: 4px;
     background-color: black;
     border-radius: 3px;
-    top: -6px
+    top: -10px
 }
 
 .burger::after {
     content: '';
-    width: 20px;
+    width: 30px;
     padding: 0;
-    height: 3px;
+    height: 4px;
     background-color: black;
     border-radius: 3px;
-    top: 6px;
+    top: 10px;
     position: absolute;
 }
 
-label {
-    top: 50px;
+.label1 {
+    top: 55px;
     bottom: 0;
     position: absolute;
     cursor: pointer;
-    width: 20px;
-    height: 20px;
-    right: 105px;
+    width: 30px;
+    height: 30px;
+    right: 120px;
     z-index: 1;
-}
-
-input:checked+.sidemenu {
-    transform: translateX(0);
-}
-
-input[type=checkbox] {
-    display: none;
 }
 
 /* bergerisfunkcija */
@@ -67,14 +57,21 @@ input[type=checkbox] {
     position: absolute;
     background-color: black;
     color: white;
-    border: 1px solid black;
     height: 100vh;
-    top: 0px;
+    top: 0;
     left: 0;
     width: 300px;
     transform: translateX(-300px);
     transition: transform 0.5s ease-in-out;
-    z-index: 1;
+    z-index: 44;
+}
+
+input:checked+.sidemenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    display: none;
 }
 
 .imgside {
@@ -105,7 +102,7 @@ input[type=checkbox] {
     height: 120px;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
-
+    margin: 0;
 }
 
 .sidemenu ul li a {
@@ -116,21 +113,25 @@ input[type=checkbox] {
 input[type="searchside"],
 button[type="submitside"] {
     position: absolute;
-    height: 20px;
+    height: 30px;
     top: 260px;
-    left: 40px;
+    left: 50px;
+    border: 0;
+    color: white;
     background-color: black;
+    font-size: 17px;
+    font-family: roboto;
 }
 
 button[type="submitside"] {
-    left: 20px;
-    background-color: white;
+    left: 26px;
+    cursor: pointer;
 }
 
 ol {
     display: flex;
     position: absolute;
-    top: 300px;
+    top: 330px;
     left: 20px;
 }
 

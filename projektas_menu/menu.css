@@ -58,8 +58,7 @@ label {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: yellow;
-    opacity: 0.3;
+    background-color: black;
     transform: translateX(-300px);
     /*judejimai i, is asimis */
     transition: transform 0.5s ease-in-out;
@@ -80,7 +79,7 @@ label {
     left: 60px;
     position: absolute;
     cursor: pointer;
-    color: black;
+    color: white;
 }
 
 .menu ul {
