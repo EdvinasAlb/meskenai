@@ -1,2 +1,4 @@
-13 konteineriu
-padaryti side menu sekcija books, sekcija populiar..
+
+Padaryti side menu sekcija books, sekcija populiar.
+
+Sutvarkyti footer display.

@@ -12,7 +12,7 @@
 }
 
 body {
-    height: 6000px;
+    height: 7800px;
     overflow-x: hidden;
 }
 
@@ -67,7 +67,6 @@ button[type="submit"] {
     display: flex;
     height: 50px;
     position: relative;
-    border: 1px solid black;
 }
 
 .nav {
