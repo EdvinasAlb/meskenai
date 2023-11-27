@@ -13,7 +13,11 @@
 
 
 
-4.	Parašykite funkciją, kuri skaičiuotų, iš kiek sveikų skaičių jos argumentas dalijasi be liekanos (išskyrus vienetą ir patį save)
+4.	Parašykite funkciją, kuri skaičiuotų, 
+iš kiek sveikų skaičių jos argumentas dalijasi be liekanos
+(išskyrus vienetą ir patį save)
+
+
 
 
 

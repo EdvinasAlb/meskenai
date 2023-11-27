@@ -86,22 +86,61 @@ function rand(min, max) {
 // console.log(seven);
 
 //8
-// let kintamasis;
+let kintamasis;
+let circle = 0
+let didesni18 = 0
+let nesumuotos = 0
+let nesumuotosSum = 0
+let lyginiai = 0
+let neLyginiai = 0
+do {
+    kintamasis = rand(10, 25)//aadalis
+    console.log(kintamasis)
+    // if (kintamasis <= 18) {//c
+    //     didesni18 = kintamasis + didesni18
+    // }
+    // if (kintamasis > 18) {//d
+    //     nesumuotos++
+    //     nesumuotosSum = kintamasis + nesumuotosSum
+    // }
+    // if (kintamasis % 2 === 0) {//e
+    //     lyginiai++
+    // } else neLyginiai++
+    circle++//b dalies ciklas
 
-// do {
-//     kintamasis = rand(10, 25)
-//     let kintamasis1 = kintamasis / kintamasis
-//     console.log(kintamasis, kintamasis1)
-// } while (kintamasis > 12)
+} while (kintamasis > 12)
 
-
+console.log('ciklu skaicius', circle)
+// console.log('maziau nei 18 suma', didesni18)
+// console.log('daugiau nei 18 ciklu sk.', nesumuotos)
+// console.log('daugiau nei 18 ciklu sk.suma', nesumuotosSum)
+// console.log('lyginiai', lyginiai, 'nelyginiai', neLyginiai)
 
 //9
+// let random;
+// let small = 0;
+// let big = 0;
+// let fives = 0;
+// do {
+//     random = rand(5, 10);
+//     for (let i = 0; i < random; i++) {
+//         small++//suskaiciuoja kiek ciklu
+//         // console.log('-',)
+//     }
+//     big++//suskaiciuoja kiek ciklu
+//     // console.log('-------',)
+
+//     fives = random == 5 ? fives : 0; //reset
+//     fives = random == 5 ? fives + 1 : 0;//resetas
+
+//     fives = random == 5 ? fives + 1 : fives;
+// } while (random != 5 || fives < 3)
+
+// console.log('big', big, 'small', small, 'fives', fives)
+
+
+
+
 //10
-
-
-
-
-
 
 

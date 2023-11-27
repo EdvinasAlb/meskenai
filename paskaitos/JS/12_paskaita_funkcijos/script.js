@@ -207,3 +207,96 @@
 // let fun11 = _ => console.log('This is dash');
 
 // fun11();
+
+
+
+/////////////////////////////////////funkcijos//////////////////////////////
+
+
+// console.log('More fun with function');
+// if (true) {
+//     var a = 'A'// var iseian is if bloko
+// }
+
+// function fun() {
+//     var b = 'B';//var neiseina uz funkcijos ribu
+//     console.log(a)//var i funkcija ieina
+// }
+
+
+// let fun2 = () => { console.log('fun 2 fumction ver1'); }//originalas
+
+// fun2 = () => { console.log('fun 2 function ver2'); }//clonas overwritina
+// fun2()
+
+// const fun2 = () => { console.log('fun 2 fumction ver1'); }//const negalom overwritinti.....visur kurgalima const naudoti ir kur nebus perrasytakaip galima su (let)
+
+
+
+
+
+
+//rekursine funkcija
+//funkcija kuri savo viduje iskviecia pati save
+//jei imanoma rekursiniu funkciju nenaudoti
+//masyvuose naudojam rekursine funkcija
+// function count123(count) {
+//     console.log('start', count);
+//     count++;
+//     if (count <= 3) {
+//         count123(count);
+//     }
+//     console.log('end', count - 1);
+// }//funkcija savo viduje issikviecia 3 kartus
+// count123(1);
+
+
+
+// const fun3 = () => {
+//     console.log('Fun 3 funkcija')
+// }
+
+
+// const fun4 = () => {
+//     console.log('fun4 funkcija');
+//     return fun3;//fun4 gali grazinti pacia save
+// }
+
+// fun4()()//pirmi skliaustai iskviecia fun 4 rezultata returne fun3, antri paliedzia rezultata-f3
+
+
+//callback//ant situ funkciju (foreach, map, sort, stateredagavimas) daug dalyku yra pakabinta ant callback
+// const fun5 = f => {
+//     console.log('fun 5');
+//     f();//argumnete paleidziam kita funkcija
+// }
+// fun5(fun3)
+
+
+
+//calculator
+
+// const calc = (action, f1, f2) => {//resultatas action veikimas
+//     let result = action(f1, f2);
+//     console.log(`%cResult: ${result}`, `color:red; font-size:20px;`)
+// }
+// const sum = (a, b) => a + b;
+// const sub = (a, b) => a - b;
+// const mul = (a, b) => a * b;
+// const div = (a, b) => a / b;
+
+// calc(sum, 10, 5)
+// calc(mul, 10, 5)
+// calc(div, 10, 5)
+// calc((a, b) => a + b, 10, 5)//funkcija viduje
+// // calc(sub, 10, 5)
+
+
+// const calc1 = (action) => {
+//     let f1 = 30;//action f1
+//     let f2 = 10;//action f2
+//     let result = action(f1, f2);//sitoj vietoj priskiram f1 f2, grazina rezultata i calc1
+//     console.log(`%cResult: ${result}`, `color:red; font-size:20px;`)
+// }
+
+// calc1((a, b) => a + b)

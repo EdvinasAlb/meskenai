@@ -279,7 +279,7 @@
 
 @media only screen and (max-width: 1100px) {
     .dune {
-        top: 4800px;
+        top: 4600px;
     }
 }
 
@@ -330,7 +330,7 @@
 
 @media only screen and (max-width: 1100px) {
     .backofthe {
-        top: 3600px;
+        top: 3400px;
     }
 }
 
@@ -526,7 +526,7 @@ p.d span {
 
 @media only screen and (max-width: 1100px) {
     .hary button {
-        bottom: -1300px;
+        bottom: -1250px;
     }
 }
 
@@ -551,7 +551,7 @@ p.d span {
 
 @media only screen and (max-width: 1100px) {
     .hary {
-        top: 3650px;
+        top: 3450px;
     }
 }
 
@@ -629,7 +629,7 @@ p.d span {
 
 @media only screen and (max-width: 1100px) {
     .agatha {
-        top: 5050px;
+        top: 4850px;
     }
 }
 
@@ -649,7 +649,7 @@ p.d span {
 
     .ourhome {
 
-        top: 6400px;
+        top: 6200px;
 
     }
 }
@@ -775,7 +775,7 @@ p.d span {
 @media only screen and (max-width: 1100px) {
 
     .storeevents {
-        top: 6600px;
+        top: 6400px;
     }
 }
 
@@ -830,7 +830,7 @@ p.d span {
 @media only screen and (max-width: 1100px) {
 
     .subscribe {
-        top: 6700px;
+        top: 6600px;
     }
 }
 
@@ -952,49 +952,6 @@ button[type="subscribe"]:hover {
 }
 
 
-.inputfooter h1 {
-    position: absolute;
-    left: 1200px;
-    top: 140px;
-    font-size: 15px;
-    color: white;
-    z-index: 3;
-}
-
-
-
-input[type="emailfooter"],
-button[type="subscribefooter"] {
-    position: absolute;
-    left: 1400px;
-    top: 150px;
-    height: 30px;
-    font-size: 14px;
-    background-color: black;
-    color: white;
-
-}
-
-
-
-input[type="emailfooter"] {
-    left: 1200px;
-    border: none;
-    border-bottom: 1px solid lightgray;
-    width: 170px;
-    outline: none;
-}
-
-
-button[type="subscribefooter"] {
-    width: 100px;
-    color: white;
-    border: none;
-}
-
-button[type="subscribefooter"]:hover {
-    cursor: pointer;
-}
 
 .conected {
     position: absolute;
