@@ -25,7 +25,7 @@
 // console.log('Five plus:', fivePlus);
 
 
-// const anmalPlus =  animal;//copy (nuoroda) reference, objektas nesukuria naujo kintamojo 
+// const anmalPlus =  animal;//copy (nuoroda) reference, objektas nesukuria naujo kintamojo
 // //2.16 js15
 
 // const realAnimal =  { ...animal }//copy object, (...--spread syntax, taskai paiima objecto turini)
@@ -99,33 +99,33 @@
 //     };
 
 //    const agent007 = {...person, codeName:'007', age:43}
-    //spreadas veikia...--nuajas property(codeName:'007') overwrite(age:43)
-    // console.log(agent007)
-    //spreadas daznai naudojamas, restas reciau
+//spreadas veikia...--nuajas property(codeName:'007') overwrite(age:43)
+// console.log(agent007)
+//spreadas daznai naudojamas, restas reciau
 
 
 
 
-    //Destructuring assignment
-    // const{codeName, firstName, lastName} = agent007;
-    // const age = agent007.age
-    // //priskiriam reiksmes naujiems kintamiesiems, daznai naudojamas
-    // console.log(codeName,firstName,lastName,age)
+//Destructuring assignment
+// const{codeName, firstName, lastName} = agent007;
+// const age = agent007.age
+// //priskiriam reiksmes naujiems kintamiesiems, daznai naudojamas
+// console.log(codeName,firstName,lastName,age)
 
 
 
 
 
-    //11.28 1:12 for in ciklas
-    //for in  ciklas pereina per visa objekta
-    //eina per enuberable, neturincius konkrecios eiles
-    // for-in -== neiteruojamos reiksmes
-    // for(const key in agent007){
-    //     console.log(key, ':',agent007[key])
-    // }
+//11.28 1:12 for in ciklas
+//for in  ciklas pereina per visa objekta
+//eina per enuberable, neturincius konkrecios eiles
+// for-in -== neiteruojamos reiksmes
+// for(const key in agent007){
+//     console.log(key, ':',agent007[key])
+// }
 
-    //objektas---maisas, viskas sumesta
-    //masyvas---griezta tvarka viduje, skirtas saugoti vienodiem kintamieji(yra tik numeriai)
+//objektas---maisas, viskas sumesta
+//masyvas---griezta tvarka viduje, skirtas saugoti vienodiem kintamieji(yra tik numeriai)
 
 
 
@@ -185,11 +185,11 @@
 
 // agent007.useGuns= function() {
 //     for (const gun of this.guns){
-        //this --- konteksinis zodis, jei turim nama,name turim buta, bute virtuve, jei stovim virtuvei ir sakom sitas kambaris, jei atsistojam ant gatves ir sakom sita kmbari nudazyk zaliai-bus nesamone. Kontekstas-ko viduje mes stovim dabar. Butas, kitas butas bet namas tas pats.
-        //arow funkcija nesupranta zodzio THIS
-        //THIS naudojamas kad agentas saudytu is savo ginklu
-    //     console.log(gun)
-    // }
+//this --- konteksinis zodis, jei turim nama,name turim buta, bute virtuve, jei stovim virtuvei ir sakom sitas kambaris, jei atsistojam ant gatves ir sakom sita kmbari nudazyk zaliai-bus nesamone. Kontekstas-ko viduje mes stovim dabar. Butas, kitas butas bet namas tas pats.
+//arow funkcija nesupranta zodzio THIS
+//THIS naudojamas kad agentas saudytu is savo ginklu
+//     console.log(gun)
+// }
 // }
 // agent007.useGuns()
 

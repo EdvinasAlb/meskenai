@@ -25,15 +25,7 @@ function rand(min, max) {
 //3
 
 //4 dalinasis is 2 (is 1 sveiko skciaciuas be liekanaos)
-
-
 // function funkc(a, b) {
 //     return a % b
 // }
-
 // console.log(funkc(10, 80))
-
-
-
-
-
