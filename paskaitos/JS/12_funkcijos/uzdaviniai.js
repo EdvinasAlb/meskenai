@@ -11,7 +11,7 @@ function rand(min, max) {
 // }
 // funkc('labas rytas')
 
-
+//------------------------
 
 //2
 // function funkc(a, b) {
@@ -22,10 +22,15 @@ function rand(min, max) {
 // funkc('labas rytas', 3)
 
 
-//3
+//3---------------------
 
-//4 dalinasis is 2 (is 1 sveiko skciaciuas be liekanaos)
-// function funkc(a, b) {
-//     return a % b
-// }
-// console.log(funkc(10, 80))
+//4 
+function funkc(a) {
+    let n = 0;
+    for (let i = 2; i <= a / 2; i++) {
+        if (a % i == 0) {
+            n++;
+        }
+    } console.log(n);//iškviečia for ciklo atskymą
+};
+funkc(30);
