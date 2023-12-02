@@ -53,3 +53,26 @@
 //     console.log('Vowels sum:', vowelsSum);
 // }
 // vowels('aaeeiioouuyy');
+//-----------------------------------------------------Sum of squares
+
+// function squares(a) {
+//     for (let i = 1; i < a + 1; i++) {
+//         kvsuma = (i * i) + (i * i)
+//     } return kvsuma
+// }
+
+// console.log('Kvadratų suma:', squares(2));
+//--------------------------------------------Multiplication table
+
+// function multi(a) {
+//     let result = '\n';
+//     for (let i = 1; i < a + 1; i++) {
+//         for (let j = 1; j < a + 1; j++) {
+//             result += (i * j) + ' ';
+//             // console.log(result);
+//         }
+//         result += '\n'
+//     } return result
+// }
+
+// console.log(multi(4));

@@ -5,6 +5,10 @@ function rand(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+
+
+
+
 // //1 užduotis
 // const elementu30 = [
 //     rand(5, 25),
@@ -93,16 +97,25 @@ function rand(min, max) {
 
 
 //3. Užduotis
-// const characters = ('ABCD')
-// function atsitRai(length) {
-//     let result = ' ';
-//     const chaLen = characters.length;
-//     for (let i = 0; i < length; i++) {
-//         result += characters.charAt(Math.floor(Math.random() * chaLen));
-//     }
 
-//     return result;
-// }
+function atsitRai(length) {
+    let result = ' ';
+    const characters = ('ABCD')
+    const chaLen = characters.length;
+    for (let i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() * chaLen));
+    }
+    return result;
+}
+
+
+
+// console.log(atsitRai(1));
+
+// let aaa = atsitRai(1) == 'A'
+// console.log(aaa);
+
+
 
 // const raidziu200 = [
 //     atsitRai(1),
@@ -307,12 +320,14 @@ function rand(min, max) {
 //     atsitRai(1),
 // ]
 
-// console.log(typeof (raidziu200))
+// let aRaides = 0
 
-// let raidziuA = 0;
-// raidziu200.forEach(a => {
-//     if (a == 'A') {
+// raidziu200.forEach(element => {
+//     if (element == 'A') {
+//         aRaides++
+//     }
+// });
 
-//     } else raidziuA++
-// })
-// console.log(raidziuA);
+
+
+// console.log(aRaides);
