@@ -1,13 +1,8 @@
-
 function rand(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
-
-
-
 
 // //1 užduotis
 // const elementu30 = [
@@ -78,44 +73,30 @@ function rand(min, max) {
 // const elementu30New = { ...elementu30 }
 // console.log(elementu30New)
 
-
-
 //e
-
-
 
 //f
 
-
 //g
 
-
 //h
-
-
-
-
 
 //3. Užduotis
 
 function atsitRai(length) {
-    let result = ' ';
-    const characters = ('ABCD')
-    const chaLen = characters.length;
-    for (let i = 0; i < length; i++) {
-        result += characters.charAt(Math.floor(Math.random() * chaLen));
-    }
-    return result;
+  let result = ' ';
+  const characters = 'ABCD';
+  const chaLen = characters.length;
+  for (let i = 0; i < length; i++) {
+    result += characters.charAt(Math.floor(Math.random() * chaLen));
+  }
+  return result;
 }
-
-
 
 // console.log(atsitRai(1));
 
 // let aaa = atsitRai(1) == 'A'
 // console.log(aaa);
-
-
 
 // const raidziu200 = [
 //     atsitRai(1),
@@ -327,7 +308,5 @@ function atsitRai(length) {
 //         aRaides++
 //     }
 // });
-
-
 
 // console.log(aRaides);

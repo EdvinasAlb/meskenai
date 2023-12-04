@@ -1,4 +1,3 @@
-
 // const five = 5;
 
 // const animal = {
@@ -30,7 +29,6 @@
 // console.log(animal, typeof(animal));
 // console.log('name', animal.name);
 
-
 // const person={
 //     firstName:'James',
 //     lastName:'Bond',
@@ -45,8 +43,6 @@
 // const sumator = (a,b,c) => a+b+c;
 
 // console.log(sumator(1,2,3));
-
-
 
 // const sumator2 = (...args) => {
 //     console.log(args);
@@ -119,7 +115,6 @@
 //     console.log(animals[index])
 // }
 
-
 // agent007.goToMission = _ =>{
 //     console.log('Going to mision');
 // }
@@ -138,7 +133,6 @@
 //     console.log(gun)
 // }
 
-
 // agent007.useGuns= function() {
 //     for (const gun of this.guns){
 //     console.log(gun)
@@ -148,7 +142,6 @@
 
 // const isItString = 'Go to mision'
 // console.log(typeof (isItString), isItString.length);
-
 
 //-----------------------------------------Prototype String
 // String.prototype.hello = function(){
@@ -212,7 +205,6 @@
 //     }
 // }
 
-
 //----------------------------------------------One Liner
 // let positiveSum = 0
 // arr123.forEach(petras => petras > 0 ? positiveSum += petras : null)
@@ -243,8 +235,6 @@
 //     }
 // })
 // console.log(positive)
-
-
 
 // const superFarm = [
 //     { animal: 'Cow', weight: 500 },
@@ -470,7 +460,6 @@
 // });
 // console.log(coloBl);
 
-
 // const colors3 = [
 //     { color: 'pink', id: 1, sky: 'blue' },
 //     { color: 'green', id: 2, sky: 'blue' },
@@ -507,3 +496,220 @@
 //     return item
 // })
 // console.log(sec)
+
+//-------------------------Filter
+
+// const small = [1, 0, 1, 2, 0, 1, 0, 1, 1, 0];
+
+// const ones = small.filter(element => element == 1);
+// console.log(ones);
+
+// const farm = [
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+// ];
+
+// const catsDogs = farm.filter(element => element.name == 'Meow' || element.name == 'Woof');
+
+// const nopigs = farm.filter(element => element.type != 'pig');
+
+// console.log(catsDogs, nopigs);
+
+// const whiteDogs = farm.filter(element => element.type == 'dog').map(element => ({...element,color: 'white',}));
+
+// console.log(whiteDogs);
+
+// const farmNew = [
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat', color: 'black' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat', color: 'white' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat', color: 'brown' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat', color: 'white and black' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat', color: 'tricolor' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+// ];
+
+// //------------------------------------------------Finde
+
+// const findeCat = farmNew.find(element => element.type == 'cat');
+// const findeCatColor = farmNew.find(element => element.type == 'cat')?.color;(oprional chain--?)
+
+// console.log(findeCat, findeCatColor);
+
+// let dog;
+// let dog1 = { name: 'woof' };
+// console.log(dog?.name, dog1.name);
+
+// const farmNew = [
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat', color: 'black' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat', color: 'white' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat', color: 'brown' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat', color: 'white and black' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+//   { name: 'Oink', type: 'pig' },
+//   { name: 'Cluck', type: 'chicken' },
+//   { name: 'Neigh', type: 'horse' },
+//   { name: 'Baa', type: 'sheep' },
+//   { name: 'Meow', type: 'cat', color: 'tricolor' },
+//   { name: 'Woof', type: 'dog' },
+//   { name: 'Moo', type: 'cow' },
+// ];
+
+// let katinuSka = 0;
+
+// const secondCat = farmNew.find(element => element.type == 'cat' && ++katinuSka == 3);
+// console.log(secondCat);
+
+// let katinuSka1 = 0;
+
+// const firstPenki = farmNew.filter(
+//   element =>(element.type == 'cat' || element.type == 'dog') && ++katinuSka1 <= 5);
+
+// console.log(firstPenki);
+//-----------------------------------------------Reduce
+
+// const animals = [
+//   { name: 'Fancy', species: 'dog', age: 5 },
+//   { name: 'Poncho', species: 'dog', age: 10 },
+//   { name: 'Tom', species: 'cat', age: 3 },
+//   { name: 'Jerry', species: 'cat', age: 1 },
+//   { name: 'Bella', species: 'dog', age: 12 },
+//   { name: 'Charlie', species: 'dog', age: 8 },
+//   { name: 'Max', species: 'cat', age: 7 },
+// ];
+
+// const sumageOfAnimals = animals.reduce((sum, item) => sum + item.age, 0);
+// console.log(sumageOfAnimals);
+
+// const averageAnimlas = animals.reduce((sum, item, index, array) => {
+//   sum += item.age;
+//   if (index === array.length - 1) {
+//     return sum / array.length;
+//   }
+//   return sum;
+// }, 0);
+
+// console.log(averageAnimlas);
+
+// const maxAge = animals.reduce((max, item) => (max > item.age ? max : item.age),0);
+// console.log(maxAge);
+//----------------------------------------------------Sort
+
+// const animals = [
+//   { name: 'Fancy', species: 'dog', age: 5 },
+//   { name: 'Poncho', species: 'dog', age: 10 },
+//   { name: 'Tom', species: 'cat', age: 3 },
+//   { name: 'Jerry', species: 'cat', age: 1 },
+//   { name: 'Bella', species: 'dog', age: 12 },
+//   { name: 'Charlie', species: 'dog', age: 8 },
+//   { name: 'Max', species: 'cat', age: 7 },
+// ];
+
+// animals.sort((a, b) => a.age - b.age);
+//sortas reikalaija skaiciaus, -1,+1
+//animals.sort((a, b) => a.name.localeCompare(b.name));
+
+// animals.sort((a, b) => {
+//   if (a.species < b.species) {
+//     return 1;
+//   }
+//   if (a.species > b.species) {
+//     return -1;
+//   }
+//   if (a.age < b.age) {
+//     return -1;
+//   }
+//   if (a.age > b.age) {
+//     return 1;
+//   }
+//   return 0;
+// });
+
+// console.log(animals);
