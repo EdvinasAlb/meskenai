@@ -518,15 +518,15 @@
 // console.log(firstPenki);
 //-----------------------------------------------reduce(puslapio statistikai)
 
-const animals = [
-  { name: 'Fancy', species: 'dog', age: 5 },
-  { name: 'Poncho', species: 'dog', age: 10 },
-  { name: 'Tom', species: 'cat', age: 3 },
-  { name: 'Jerry', species: 'cat', age: 1 },
-  { name: 'Bella', species: 'dog', age: 12 },
-  { name: 'Charlie', species: 'dog', age: 8 },
-  { name: 'Max', species: 'cat', age: 7 },
-];
+// const animals = [
+//   { name: 'Fancy', species: 'dog', age: 5 },
+//   { name: 'Poncho', species: 'dog', age: 10 },
+//   { name: 'Tom', species: 'cat', age: 3 },
+//   { name: 'Jerry', species: 'cat', age: 1 },
+//   { name: 'Bella', species: 'dog', age: 12 },
+//   { name: 'Charlie', species: 'dog', age: 8 },
+//   { name: 'Max', species: 'cat', age: 7 },
+// ];
 
 // const sumageOfAnimals = animals.reduce((sum, item) => sum + item.age, 0);
 // console.log(sumageOfAnimals); //suma
@@ -541,7 +541,11 @@ const animals = [
 
 // console.log(averageAnimlas); //vidurkis
 
-const maxAge = animals.reduce((max, item) => (max > item.age ? max : item.age),0);console.log(maxAge); //max skaicius
+// const maxAge = animals.reduce(
+//   (max, item) => (max > item.age ? max : item.age),
+//   0
+// );
+// console.log(maxAge); //max skaicius
 //----------------------------------------------------sortas
 //sukaitalioja indexus, dirba ant originalo
 // buble sortas

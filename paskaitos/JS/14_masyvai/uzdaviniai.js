@@ -6,47 +6,45 @@ function rand(min, max) {
 
 // //1 užduotis
 // const elementu30 = [
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25),
-//     rand(5, 25)
-// ]
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+//   rand(5, 25),
+// ];
 // console.log(elementu30, elementu30.length)
 
 // //2 užduotis
 // //a
-// let didesniu10 = 0
+// let didesniu10 = 0;
 // elementu30.forEach(a => {
-//     if (a > 10) {
-//         didesniu10++
-//     }
-// })
+//   a > 10 && didesniu10++;
+// });
 // console.log('Reikšmės didesnės nei 10 =', didesniu10);
 
 // //b
@@ -60,20 +58,27 @@ function rand(min, max) {
 // const result = dydz(elementu30);
 // console.log('Dyžiausia reikšmė =', result)
 
-// //c
-// let lygSum = 0
+//c
+// let lygSum = 0;
 // elementu30.forEach(a => {
-//     if (a % 2 === 0) {
-//         lygSum += a
-//     }
-// })
+//   if (a % 2 === 0) {
+//     lygSum += a;
+//   }
+// });
 // console.log('Lyginių reikšmių suma =', lygSum)
 
 // //d
-// const elementu30New = { ...elementu30 }
-// console.log(elementu30New)
+// const elementu30New = [];
+// for (let i = 0; i < elementu30.length; i++) {
+//   elementu30New.push(elementu30[i] - i);
+// }
+// console.log(elementu30New);
 
 //e
+// for (let i = 0; i < 10; i++) {
+//   elementu30.push(rand(5, 25));
+// }
+// console.log(elementu30);
 
 //f
 
@@ -83,15 +88,15 @@ function rand(min, max) {
 
 //3. Užduotis
 
-function atsitRai(length) {
-  let result = ' ';
-  const characters = 'ABCD';
-  const chaLen = characters.length;
-  for (let i = 0; i < length; i++) {
-    result += characters.charAt(Math.floor(Math.random() * chaLen));
-  }
-  return result;
-}
+// function atsitRai(length) {
+//   let result = ' ';
+//   const characters = 'ABCD';
+//   const chaLen = characters.length;
+//   for (let i = 0; i < length; i++) {
+//     result += characters.charAt(Math.floor(Math.random() * chaLen));
+//   }
+//   return result;
+// }
 
 // console.log(atsitRai(1));
 
