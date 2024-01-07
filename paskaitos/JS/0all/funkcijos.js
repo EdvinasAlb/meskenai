@@ -1,11 +1,8 @@
-
 function rand(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
-
 
 // function fun1() {
 //     console.log('this is fun1');
@@ -14,7 +11,6 @@ function rand(min, max) {
 // // let fun2 = fun1
 // let fun2 = fun1()
 // console.log(fun1, fun2);
-
 
 // let fun3 = function () {
 //     console.log("this is")
@@ -43,7 +39,6 @@ function rand(min, max) {
 // let today = 'Friday';
 // console.log(fun8(today))
 
-
 //--------------------------------------Functio. Declaration
 // let fun1 = function() {
 //     return 'This is really fun1';
@@ -54,7 +49,6 @@ function rand(min, max) {
 //  }
 // let fun2 = fun1();
 // console.log('fun2:', fun2, typeof fun2);
-
 
 // let cl = console.log;
 
@@ -82,7 +76,6 @@ function rand(min, max) {
 
 //------------------------------------------One Liner Arrow Function
 // let fun5 = () => console.log('This is fun5');
-
 
 // let fun6 = () => {
 //     return 'This is really fun6';
@@ -133,9 +126,6 @@ function rand(min, max) {
 
 // fun11();
 
-
-
-
 // if (true) {
 //     var a = 'A'
 // }
@@ -145,15 +135,12 @@ function rand(min, max) {
 //     console.log(a)
 // }
 
-
 // let fun2 = () => { console.log('fun 2 fumction ver1'); }
 
 // fun2 = () => { console.log('fun 2 function ver2'); }
 // fun2()
 
 // const fun2 = () => { console.log('fun 2 fumction ver1'); }
-
-
 
 //---------------------------------------Rekur. Funkc.
 // function count123(count) {
@@ -177,7 +164,6 @@ function rand(min, max) {
 
 // fun4()()
 
-
 //-----------------------------------Call Back Funkcion.
 // const fun5 = f => {
 //     console.log('fun 5');
@@ -187,30 +173,28 @@ function rand(min, max) {
 
 //-------------------------------------------Calculator
 // const calc = (action, f1, f2) => {
-//     let result = action(f1, f2);
-//     console.log(`%cResult: ${result}`, `color:red; font-size:20px;`)
-// }
+//   let result = action(f1, f2);
+//   console.log(`%cResult: ${result}`, `color:red; font-size:20px;`);
+// };
 // const sum = (a, b) => a + b;
 // const sub = (a, b) => a - b;
 // const mul = (a, b) => a * b;
 // const div = (a, b) => a / b;
 
-// calc(sum, 10, 5)
-// calc(mul, 10, 5)
-// calc(div, 10, 5)
-// calc((a, b) => a + b, 10, 5)
-// calc(sub, 10, 5)
+// calc(sum, 20, 5);
+// calc(mul, 10, 5);
+// calc(div, 10, 5);
+// calc((a, b) => a + b, 10, 5);
+// calc(sub, 10, 5);
 
+// const calc1 = action => {
+//   let f1 = 30; //action f1
+//   let f2 = 10; //action f2
+//   let result = action(f1, f2);
+//   console.log(`%cResult: ${result}`, `color:red; font-size:20px;`);
+// };
 
-// const calc1 = (action) => {
-//     let f1 = 30;//action f1
-//     let f2 = 10;//action f2
-//     let result = action(f1, f2);
-//     console.log(`%cResult: ${result}`, `color:red; font-size:20px;`)
-// }
-
-// calc1((a, b) => a + b)
-
+// calc1((a, b) => a + b);
 
 //--------------------------------2
 // function funkc(a, b) {
@@ -219,9 +203,6 @@ function rand(min, max) {
 //     }
 // }
 // funkc('labas rytas', 3)
-
-
-
 
 //-------------------------------4
 // function funkc(a) {
@@ -233,5 +214,3 @@ function rand(min, max) {
 //     } console.log(n);//iškviečia for ciklo atskymą
 // };
 // funkc(10);
-
-
